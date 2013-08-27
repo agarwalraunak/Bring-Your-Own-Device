@@ -1,0 +1,42 @@
+/**
+ * 
+ */
+package com.device.configuration;
+
+
+/**
+ * @author raunak
+ *
+ */
+public class KerberosURLConfig {
+	
+	private final String KERBEROS_APP_AUTHENTICATION_URL;					//Kerberos Server KDC URL 
+	private final String KERBEROS_APP_SERVICE_TICKET_REQUEST_URL;		//Keberos Server TGT URL
+	
+	/**
+	 * @param kERBEROS_APP_AUTHENTICATION_URL
+	 * @param kERBEROS_APP_SERVICE_TICKET_REQUEST_URL
+	 */
+	public KerberosURLConfig(String kERBEROS_APP_AUTHENTICATION_URL,
+			String kERBEROS_APP_SERVICE_TICKET_REQUEST_URL) {
+		super();
+		KERBEROS_APP_AUTHENTICATION_URL = kERBEROS_APP_AUTHENTICATION_URL;
+		KERBEROS_APP_SERVICE_TICKET_REQUEST_URL = kERBEROS_APP_SERVICE_TICKET_REQUEST_URL;
+	}
+
+
+	/**
+	 * @return Configured KERBEROS_APP_AUTHENTICATION_URL
+	 */
+	public String getKERBEROS_APP_AUTHENTICATION_URL() {
+		return KERBEROS_APP_AUTHENTICATION_URL;
+	}
+
+
+	/**
+	 * @return Configured KERBEROS_APP_SERVICE_TICKET_REQUEST_URL
+	 */
+	public String getKERBEROS_APP_SERVICE_TICKET_REQUEST_URL() {
+		return KERBEROS_APP_SERVICE_TICKET_REQUEST_URL;
+	}
+}
