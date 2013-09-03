@@ -9,12 +9,12 @@ solution of the BYOD problem.
 
 Major entities in the applications are :
 <ol>
-<li>App: The medium through which user can access the service deployed in the network</li>
-<li>Service: These are resource which the user is trying to access</li>
-<li>Kerberos Server: Central Authentication service to authenticate app and user before they can be a part of the trusted
+<li><b>App:</b> The medium through which user can access the service deployed in the network</li>
+<li><b>Service:</b> These are resource which the user is trying to access</li>
+<li><b>Kerberos Server:</b> Central Authentication service to authenticate app and user before they can be a part of the trusted
 network</li>
-<li>Key Server: Another service which is responsible to manage keys in the network</li>
-<li>Apache Directory Studio: Manages user account</li> 
+<li><b>Key Server:</b> Another service which is responsible to manage keys in the network</li>
+<li><b>Apache Directory Studio:</b> Manages user account</li> 
 </ol>
 Major features of the software are:
 <ol>
