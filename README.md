@@ -8,13 +8,14 @@ The software is built on the Kerberos Protocol (http://en.wikipedia.org/wiki/Ker
 solution of the BYOD problem. 
 
 Major entities in the applications are :
+<ol>
 <li>App: The medium through which user can access the service deployed in the network</li>
 <li>Service: These are resource which the user is trying to access</li>
 <li>Kerberos Server: Central Authentication service to authenticate app and user before they can be a part of the trusted
 network</li>
 <li>Key Server: Another service which is responsible to manage keys in the network</li>
 <li>Apache Directory Studio: Manages user account</li> 
-
+</ol>
 Major features of the software are:
 <ol>
 <li>App and User authentication by the Kerberos Server before they can be a part of the trusted network</li>
