@@ -16,7 +16,8 @@ network
 5) Apache Directory Studio: Manages user account 
 
 Major features of the software are:
-1) App and User authentication by the Kerberos Server before they can be a part of the trusted network
+<ol>
+<li>1) App and User authentication by the Kerberos Server before they can be a part of the trusted network</li>
 2) App and Service mutual authentication
 3) Session Management to track the activities of the App and User, session timeouts 
 4) Secure communication between the App and the Service. Data is encrypted using the "Assymmetric Encryption Scheme"
